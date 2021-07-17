@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:courier,arial,helvetica;
+    overflow-x: hidden;
+}
+
+/* TOP Navigation Bar */
+
+.topNav{
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+    height:50px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topNav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:visited{
+    text-decoration: underline;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:courier,arial,helvetica;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Project Showcase */
+
+/* Physics */
+
+.Physicstitle{
+    background-color: #548d6c;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Physics Algorithm */
+
+.boids, .quad, .perlin{
+    width: 100%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.physics p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.physics img{
+    width: 45%;
+    height: 45%;
+    margin: 1%;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.physics img:hover{
+    position:relative;
+    width: 55%;
+}
+
+#physics_btn{
+    border: #548d6c;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+#physics_btn:hover{
+    background-color: #548d6c;
+}
+
+/* Machine Learning */
+
+.Title_MachineLearning{
+    background-color: #F13846;
+    color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Machine_Learning{
+    text-align: center;
+}
+
+.Machine_Learning a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Machine_Learning img{
+    width: 45%;
+    height: 45%;
+    margin: 1%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.Machine_Learning img:hover{
+    position:relative;
+    width: 55%;
+}
+
+.Machine_Learning p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Machine_Learning h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#Machine_btn{
+    border: #F13846;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+#Machine_btn:hover{
+    background-color: #F13846;
+}
+
+/* Miscellaneous Projects */
+
+.Title_Arduino{
+    background-color: #CBEFFF;
+    color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Arduino{
+    text-align: center;
+}
+
+.Arduino p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Arduino img{
+    width: 45%;
+    height: 45%;
+    margin: 1%;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.Arduino img:hover{
+    position:relative;
+    width: 55%;
+}
