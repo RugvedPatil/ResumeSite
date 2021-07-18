@@ -44,7 +44,8 @@ a:visited{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    text-align: center;
+    height: 50vh;
     width: 100%;
     font-size: 30px;
 }
@@ -53,8 +54,27 @@ a:visited{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #EEEEEE;
-    height: 350px;
+    height: 50vh;
     width: 100%;
     font-size: 30px;
+}
+
+.divType_2 a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #000;
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+}
+
+a:hover{
+    color: #EEEEEF;
+    background-color: black;
 }
