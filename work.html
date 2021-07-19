@@ -1,117 +1,128 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/work.css">
     <title>Rugved Patil</title>
 </head>
 <body>
-    <div class="topNav">
-        <div id="navLink">
-            <a href="index.html">About</a>
-            <a href="./work.html">Work</a>
+    <div class="container-fluid">
+        <div class="topNav">
+            <div id="navLink">
+                <a href="index.html">About</a>
+                <a href="./work.html">Work</a>
+            </div>
         </div>
-    </div>
-    <!-- Physics Simulation Algorithm -->
-    <div class="Physicstitle">
-        <h2>Physics Simulations</h2>
-    </div>
-    <div class="physics">
-        <div class="boids">
-            <a href="https://rugvedpatil.github.io/Boid_Algorithm/">
-                <img src="./img/boidsAlgo.png" alt="testImage">
+        <!-- Physics Simulation Algorithm -->
+        <div class="Physicstitle">
+            <h2>Physics Simulations</h2>
+        </div>
+        <div class="physics row">
+            <div class="boids">
+                <a href="https://rugvedpatil.github.io/Boid_Algorithm/">
+                    <img class="img-fluid rounded mx-auto d-block" src="./img/BoidsAlgo_small.jpg" alt="testImage">
+                </a>
+                <h2>Boids Algorithm</h2>
+                <p>
+                    Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. His paper on this topic was published in 1987 in the proceedings of the ACM SIGGRAPH conference.
+                    The name "boid" corresponds to a shortened version of "bird-oid object", which refers to a bird-like object.
+                    Incidentally, "boid" is also a New York Metropolitan dialect pronunciation for "bird.
+                    Rules applied in simple Boids
+                    Separation,
+                    Alignment,
+                    Cohesion,
+                    As with most artificial life simulations, Boids is an example of emergent behavior; that is, the complexity of Boids arises from the interaction of individual agents 
+                    (the boids, in this case) adhering to a set of simple rules. The rules applied in the simplest Boids world are as follows:
+                    separation: steer to avoid crowding local flockmates
+                    alignment: steer towards the average heading of local flockmates
+                    cohesion: steer to move towards the average position (center of mass) of local flockmates
+                </p>
+                <button class="button" id="physics_btn" onclick="window.location.href='https://rugvedpatil.github.io/Boid_Algorithm/';">Vist Page</button>
+            </div>
+    
+            <div class="quad">            
+                <a href="https://rugvedpatil.github.io/QuadTree/">
+                    <img class="img-fluid rounded mx-auto d-block" src="./img/QuadTree_small.jpg" alt="testImage">
+                </a>
+                <h2>QuadTree Algorithm</h2>
+                <p>Quadtrees are trees used to efficiently store data of points on a two-dimensional space. In this tree, each node has at most four children.
+                    We can construct a quadtree from a two-dimensional area using the following steps:
+                    Divide the current two dimensional space into four boxes.
+                    If a box contains one or more points in it, create a child object, storing in it the two dimensional space of the box
+                    If a box does not contain any points, do not create a child for it
+                    Recurse for each of the children.
+                    Quadtrees are used in image compression, where each node contains the average colour of each of its children. The deeper you traverse in the tree, the more the detail of the image.
+                    Quadtrees are also used in searching for nodes in a two-dimensional area. For instance, if you wanted to find the closest point to given coordinates, you can do it using quadtrees.
+                </p>
+                <button class="button" id="physics_btn" onclick="window.location.href='https://rugvedpatil.github.io/QuadTree/';">Vist Page</button>
+            </div>
+            <div class="perlin">            
+                <a href="https://rugvedpatil.github.io/PerlineNoise/">
+                    <img class="img-fluid rounded mx-auto d-block img-thumbnail" src="./img/PerlineAlgo_small.jpg" alt="testImage">
+                </a>
+                <h2>Preline Noise Algorithm</h2>
+                <p>
+                    Ken Perlin developed perlin noise in 1983 as a result of his frustration with the "machine-like" look of computer-generated imagery (CGI) at the time.
+                    [1] He formally described his findings in a SIGGRAPH paper in 1985 called An image Synthesizer.[2] He developed it at Mathematical Applications Group, Inc. (MAGI) for Disney's computer animated sci-fi motion picture Tron (1982). 
+                    In 1997, Perlin was awarded an Academy Award for Technical Achievement for creating the algorithm.[3][4] [5][6]
+                    To Ken Perlin for the development of Perlin Noise, a technique used to produce natural appearing textures on computer generated surfaces for motion picture visual effects. 
+                    The development of Perlin Noise has allowed computer graphics artists to better represent the complexity of natural phenomena in visual effects for the motion picture industry.
+                </p>
+                <button class="button" id="physics_btn" onclick="window.location.href='https://rugvedpatil.github.io/PerlineNoise/';">Vist Page</button>
+            </div>
+        </div>
+        <!-- Machine Learning Project -->
+        <div class="Title_MachineLearning">
+            <h2>Machine Learning</h2>
+        </div>
+        <div class="Machine_Learning">
+            <a href="https://github.com/RugvedPatil/CreditRisk_Prediction">
+                <img class="img-fluid rounded mx-auto d-block" src="./img/creditRisk_small.jpg" alt="testImage">
             </a>
-            <h2>Boids Algorithm</h2>
-            <p>Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. His paper on this topic was published in 1987 in the proceedings of the ACM SIGGRAPH conference. [1] The name "boid" corresponds to a shortened version of "bird-oid object", which refers to a bird-like object.
-                [2] Incidentally, "boid" is also a New York Metropolitan dialect pronunciation for "bird.
-                Rules applied in simple Boids
-                Separation
-                Alignment
-                Cohesion
-                As with most artificial life simulations, Boids is an example of emergent behavior; that is, the complexity of Boids arises from the interaction of individual agents 
-                (the boids, in this case) adhering to a set of simple rules. The rules applied in the simplest Boids world are as follows:
-                separation: steer to avoid crowding local flockmates
-                alignment: steer towards the average heading of local flockmates
-                cohesion: steer to move towards the average position (center of mass) of local flockmates
+            <h3>Credit Risk Prediction</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor, urna eget mattis pretium, 
+                mauris dolor placerat dolor, non auctor tortor magna vitae ipsum. Nam augue magna, commodo ac erat a, 
+                efficitur consequat nisl. Etiam suscipit eu eros non vehicula. Etiam pharetra malesuada lacus vel feugiat. Nulla ornare condimentum mi, 
+                nec commodo risus dapibus vitae. Maecenas efficitur ante scelerisque nisl hendrerit laoreet. Etiam sit amet vulputate augue. Phasellus a mi eleifend, 
+                mollis leo porta, dapibus nisi. Proin in scelerisque nulla. Integer a lacus congue, tincidunt sem eu, consequat urna.
+                Sed porta, sapien sed aliquam vestibulum, dolor tortor placerat dolor, nec luctus metus eros quis ipsum. Nullam non sodales diam. Etiam id nisl vestibulum ex fringilla maximus id nec ex. 
+                Quisque suscipit rutrum porta. Proin quis eros aliquam metus imperdiet mattis. 
+                Morbi ante sem, venenatis quis sapien vitae, mattis condimentum sem. Curabitur justo eros, pellentesque sit amet auctor a, faucibus eget nunc. Duis ac viverra sem, non lobortis risus. 
+                Proin convallis nisl eu nunc cursus, non consequat libero vehicula. Vivamus congue, mauris in volutpat iaculis, quam urna venenatis velit, ac vulputate diam ipsum eget leo. Nam sodales odio vitae pellentesque porttitor. 
+                Nunc semper at nibh in egestas. In tristique arcu sit amet sapien interdum, sit amet pulvinar urna placerat. Curabitur tincidunt, ligula condimentum sagittis consequat, mauris ipsum suscipit nunc, ac ultricies massa lorem eget turpis. Ut in ligula at dolor efficitur ornare id sit amet lorem.
             </p>
-            <button class="button" id="physics_btn" onclick="window.location.href='https://rugvedpatil.github.io/Boid_Algorithm/';">Vist Page</button>
+            <button class="button" id="Machine_btn" onclick="window.location.href='https://github.com/RugvedPatil/CreditRisk_Prediction';">Vist github</button>
         </div>
-
-        <div class="quad">            
-            <a href="https://rugvedpatil.github.io/QuadTree/">
-                <img src="./img/QuadTree.jpg" alt="testImage">
-            </a>
-            <h2>QuadTree Algorithm</h2>
-            <p>Quadtrees are trees used to efficiently store data of points on a two-dimensional space. In this tree, each node has at most four children.
-                We can construct a quadtree from a two-dimensional area using the following steps:
-                Divide the current two dimensional space into four boxes.
-                If a box contains one or more points in it, create a child object, storing in it the two dimensional space of the box
-                If a box does not contain any points, do not create a child for it
-                Recurse for each of the children.
-                Quadtrees are used in image compression, where each node contains the average colour of each of its children. The deeper you traverse in the tree, the more the detail of the image.
-                Quadtrees are also used in searching for nodes in a two-dimensional area. For instance, if you wanted to find the closest point to given coordinates, you can do it using quadtrees.
-            </p>
-            <button class="button" id="physics_btn" onclick="window.location.href='https://rugvedpatil.github.io/QuadTree/';">Vist Page</button>
+        <!-- Miscellaneous Practice Project -->
+        <div class="Title_Arduino">
+            <h2>Arduino</h2>
         </div>
-        <div class="perlin">            
-            <a href="https://rugvedpatil.github.io/PerlineNoise/">
-                <img src="./img/perlineAlgo.png" alt="testImage">
-            </a>
-            <h2>Preline Noise Algorithm</h2>
+        <div class="Arduino">
+            <img class="img-fluid rounded mx-auto d-block" src="./img/arduino0_small.jpg" alt="breadboard">
             <p>
-                Ken Perlin developed perlin noise in 1983 as a result of his frustration with the "machine-like" look of computer-generated imagery (CGI) at the time.
-                [1] He formally described his findings in a SIGGRAPH paper in 1985 called An image Synthesizer.[2] He developed it at Mathematical Applications Group, Inc. (MAGI) for Disney's computer animated sci-fi motion picture Tron (1982). 
-                In 1997, Perlin was awarded an Academy Award for Technical Achievement for creating the algorithm.[3][4] [5][6]
-                To Ken Perlin for the development of Perlin Noise, a technique used to produce natural appearing textures on computer generated surfaces for motion picture visual effects. 
-                The development of Perlin Noise has allowed computer graphics artists to better represent the complexity of natural phenomena in visual effects for the motion picture industry.
+                I have worked on a pid controller using arduino 
+                A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a 
+                variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value {\displaystyle e(t)}e(t) as the difference between a desired setpoint (SP) and 
+                a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.
             </p>
-            <button class="button" id="physics_btn" onclick="window.location.href='https://rugvedpatil.github.io/PerlineNoise/';">Vist Page</button>
-        </div>
-    </div>
-    <!-- Machine Learning Project -->
-    <div class="Title_MachineLearning">
-        <h2>Machine Learning</h2>
-    </div>
-    <div class="Machine_Learning">
-        <a href="https://github.com/RugvedPatil/CreditRisk_Prediction">
-            <img src="./img/creditRisk.png" alt="testImage">
-        </a>
-        <h3>Credit Risk Prediction</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor, urna eget mattis pretium, 
-            mauris dolor placerat dolor, non auctor tortor magna vitae ipsum. Nam augue magna, commodo ac erat a, 
-            efficitur consequat nisl. Etiam suscipit eu eros non vehicula. Etiam pharetra malesuada lacus vel feugiat. Nulla ornare condimentum mi, 
-            nec commodo risus dapibus vitae. Maecenas efficitur ante scelerisque nisl hendrerit laoreet. Etiam sit amet vulputate augue. Phasellus a mi eleifend, 
-            mollis leo porta, dapibus nisi. Proin in scelerisque nulla. Integer a lacus congue, tincidunt sem eu, consequat urna.
-            Sed porta, sapien sed aliquam vestibulum, dolor tortor placerat dolor, nec luctus metus eros quis ipsum. Nullam non sodales diam. Etiam id nisl vestibulum ex fringilla maximus id nec ex. 
-            Quisque suscipit rutrum porta. Proin quis eros aliquam metus imperdiet mattis. 
-            Morbi ante sem, venenatis quis sapien vitae, mattis condimentum sem. Curabitur justo eros, pellentesque sit amet auctor a, faucibus eget nunc. Duis ac viverra sem, non lobortis risus. 
-            Proin convallis nisl eu nunc cursus, non consequat libero vehicula. Vivamus congue, mauris in volutpat iaculis, quam urna venenatis velit, ac vulputate diam ipsum eget leo. Nam sodales odio vitae pellentesque porttitor. 
-            Nunc semper at nibh in egestas. In tristique arcu sit amet sapien interdum, sit amet pulvinar urna placerat. Curabitur tincidunt, ligula condimentum sagittis consequat, mauris ipsum suscipit nunc, ac ultricies massa lorem eget turpis. Ut in ligula at dolor efficitur ornare id sit amet lorem.
-        </p>
-        <button class="button" id="Machine_btn" onclick="window.location.href='https://github.com/RugvedPatil/CreditRisk_Prediction';">Vist github</button>
-    </div>
-    <!-- Miscellaneous Practice Project -->
-    <div class="Title_Arduino">
-        <h2>Arduino</h2>
-    </div>
-    <div class="Arduino">
-        <img src="./img/arduino0.jpg" alt="breadboard">
-        <p>
-            I have worked on a pid controller using arduino 
-            A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a 
-            variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value {\displaystyle e(t)}e(t) as the difference between a desired setpoint (SP) and 
-            a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.
-        </p>
-        <div class="arduinoImg">
-            <img src="./img/arduino1.png" alt="circuitBoard">
-            <img src="./img/arduino2.png" alt="circuitdiagram">
-        </div>
+            <div class="row align-items-star">
+                <div class="col">
+                    <img class="img-fluid rounded mx-auto d-block" src="./img/arduino1.png" alt="circuitBoard"> 
+                </div>
+                <div class="col">
+                    <img class="img-fluid rounded mx-auto d-block" src="./img/arduino2.png" alt="circuitdiagram">
+                </div>
+            </div>
     </div>
     <div class="contact">
-        <p>contact: </p>
-        <a href="mailto:rugvedpatil1001@gmail.com">rugvedpatil1001@gmail.com</a>
+        <p>contact: <a href="mailto:rugvedpatil1001@gmail.com">rugvedpatil1001@gmail.com</a> </p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html> 
