@@ -84,14 +84,6 @@ a:visited{
     padding-right: 10%;
 }
 
-/* .physics img{   
-    width: 795px;
-    height: 453px;
-    margin: 1%;
-    transition: 0.3s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
-
 #physics_btn{
     border: #548d6c;
     border-style: solid;
@@ -126,20 +118,6 @@ a:visited{
     align-items: center;
     font-weight: bold;
 }
-
-/* .Machine_Learning img{
-    width: 45%;
-    height: 45%;
-    margin: 1%;
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.3s;
-}
-
-.Machine_Learning img:hover{
-    position:relative;
-    width: 55%;
-} */
 
 .Machine_Learning p{
     padding-left: 10%;
@@ -185,38 +163,6 @@ a:visited{
     padding-left: 10%;
     padding-right: 10%;
 }
-
-/* .Arduino img{
-    width: 45%;
-    height: 45%;
-    margin: 1%;
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.3s;
-}
-
-.Arduino img:hover{
-    position:relative;
-    width: 55%;
-} */
-
-/* .arduinoImg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-} */
-
-/* .arduinoImg img{
-    top: 50%;
-    left: 50%;
-    transition: 0.3s;
-}
-
-.arduinoImg img:hover{
-    position:relative;
-    width: 70%;
-} */
 
 /* Contact Me */
 
