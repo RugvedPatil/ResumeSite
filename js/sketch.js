@@ -20,7 +20,8 @@ function getScrollPercent() {
 }
 
 function draw()
-{ 
+{
+    const scrollPre = getScrollPercent();
     background(255,255,255);
     ortho(-400,400,-600,600,10,1000);
     ambientLight(255,255,255);
@@ -32,7 +33,7 @@ function draw()
     {
         for(let x=0; x < width; x += w)
         {
-            ambientMaterial(25);
+            ambientMaterial(25 + scrollPre);
             push(); 
             let d = dist(x,z,width/2,height/2);
             let offset = map(d,10,max_d, -PI, PI);
