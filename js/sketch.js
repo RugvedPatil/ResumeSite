@@ -20,7 +20,7 @@ function getScrollPercent() {
 }
 
 function draw()
-{   
+{ 
     background(255,255,255);
     ortho(-400,400,-600,600,10,1000);
     ambientLight(255,255,255);
