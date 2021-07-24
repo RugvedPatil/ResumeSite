@@ -18,7 +18,7 @@ body{
     margin: 0;
     height:50px;
     overflow: hidden;
-    position: relative;
+    position:static;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ a:visited{
     text-align: center;
     height: 50vh;
     width: 100%;
-    font-size: 30px;
+    font-size: 1.5em;
 }
 
 .divType_2{
@@ -55,7 +55,7 @@ a:visited{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #EEEEEE;
+    background-color: rgba(159, 159, 159, 0.5);
     height: 50vh;
     width: 100%;
     font-size: 30px;
@@ -77,4 +77,21 @@ a:visited{
 a:hover{
     color: #EEEEEF;
     background-color: black;
+}
+
+#wave_div{
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,50%);
+    z-index: -100;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+:root {
+    color-scheme: light only;
 }
