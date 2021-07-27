@@ -199,3 +199,33 @@ a:visited{
 .img-fluid{
     margin-top: 2%;
 }
+
+.divType_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(159, 159, 159, 0.5);
+    margin-top: 1%;
+    height: 50vh;
+    width: 100%;
+    font-size: 30px;
+}
+
+.divType_2 a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #000;
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+}
+
+a:hover{
+    color: #EEEEEF;
+    background-color: black;
+}
