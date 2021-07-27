@@ -61,6 +61,15 @@ a:visited{
     font-size: 30px;
 }
 
+#contact_a{
+    background-color: #EEEEEF;
+}
+
+#contact_a:hover{
+    color: #EEEEEF;
+    background-color: black; 
+}
+
 .divType_2 a{
     margin: 0;
     padding: 0;
@@ -79,11 +88,17 @@ a:hover{
     background-color: black;
 }
 
+.outside {
+    position:relative;
+}
+
 #wave_div{
-    position: fixed;
-    left: 50%;
-    top: 0%;
-    transform: translate(-50%,50%);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
     z-index: -100;
 }
 
