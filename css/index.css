@@ -40,6 +40,11 @@ a:visited{
     text-decoration: underline;
 }
 
+#active_page{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
 .divType_1{
     display: flex;
     justify-content: center;
@@ -62,7 +67,7 @@ a:visited{
 }
 
 #contact_a{
-    background-color: #EEEEEF;
+    background-color: rgba(100, 100, 100, 0.5);
 }
 
 #contact_a:hover{
