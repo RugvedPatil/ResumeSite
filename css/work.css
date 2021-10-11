@@ -170,6 +170,25 @@ a:visited{
     padding-right: 10%;
 }
 
+/* UI DEVELOPEMNT */
+.Title_uidev{
+    background-color: #E1341E;
+    color: #FFFFFF;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.carousel{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 /* Contact Me */
 
 .contact{

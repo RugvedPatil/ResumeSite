@@ -4,6 +4,16 @@ body{
     font-family:courier,arial,helvetica;
 }
 
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#active_page{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
 .dot{
     height: 25px;
     width: 25px;
@@ -40,10 +50,6 @@ a:visited{
     text-decoration: underline;
 }
 
-#active_page{
-    text-decoration-line: underline;
-    font-weight: bold;
-}
 
 .divType_1{
     display: flex;
@@ -105,11 +111,6 @@ a:hover{
     display: block;
     position: absolute;
     z-index: -100;
-}
-
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
 }
 
 :root {
